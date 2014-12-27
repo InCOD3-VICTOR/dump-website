@@ -1,11 +1,31 @@
 {
   "name": "dump-website",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A HTTP Proxy which is used for dumping static website.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Victor.Woo",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.8.1",
+    "request": "^2.51.0",
+    "node-fs": "^0.1.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorwoo/dump-website"
+  },
+  "keywords": [
+    "http",
+    "proxy",
+    "dump",
+    "website"
+  ],
+  "bugs": {
+    "url": "https://github.com/victorwoo/dump-website/issues"
+  },
+  "homepage": "https://github.com/victorwoo/dump-website"
 }
